@@ -155,14 +155,15 @@
     margin-top: 40px;
   }
 
-  .hero-section > .copy-container > .button {
+  .hero-button {
     margin-top: 10px;
   }
 
   .hero-img-small {
-    width: 1200px;
-    bottom: -130px;
-    right: -500px;
+    width: 600px;
+    bottom: -110px;
+    right: -105px;
+    pointer-events: none;
   }
 
   .hero-img-wide {
@@ -396,17 +397,19 @@
    	font-size: 24px;
    	line-height: 32px;
    	letter-spacing: 1px;
+    font-weight: 100;
    }
 
    h2 {
    	font-family: 'din_alternatebold';
    	font-size: 24px;
    	line-height: 32px;
-
+    font-weight: 100;
    }
 
    h3 {
    	font-family: 'din_alternatebold';
+    font-weight: 100;
    }
 
    p {
