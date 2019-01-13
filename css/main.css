@@ -372,6 +372,7 @@
       width: 150px;
       right: 145px;
       top: 75px;
+      pointer-events: none;
     }
   }
 
