@@ -128,11 +128,27 @@
 
   header {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   header img {
     width: 180px;
     display: block;
+  }
+
+  .nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1a1a1a;
+    margin-right: 16px;
+  }
+
+  .nav-link:hover {
+    color: rgba(26, 26, 26, .7);
+
   }
 
   .section-container {
